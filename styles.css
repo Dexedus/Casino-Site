@@ -158,7 +158,7 @@ h1{
     }
 
     .card{
-        height: 350px;
+        height: 380px;
         width: 300px;
     }
 
@@ -232,6 +232,15 @@ h1{
 
     .intro{
         text-align: center;
+    }
+
+     #logo{
+        height: 100px;
+    }
+
+    .dropdownBtn{
+        font-size: 28px;
+        width: 80px;
     }
     
   }
