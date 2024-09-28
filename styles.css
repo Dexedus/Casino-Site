@@ -135,20 +135,6 @@ h1{
     display: none;
 }
 
-
-
-@keyframes gradient-animation {
-    0% {
-      background-position: 100% 50%;
-    }
-    50% {
-      background-position: 0% 0%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
   @media (max-width: 1250px) {
     .container{
         grid-template-columns: repeat(2, 1fr);
@@ -188,7 +174,6 @@ h1{
     #logo{
         margin-right: 26.3%;
     }
-
  
     .dropdown{
         display: block;
@@ -208,6 +193,7 @@ h1{
         margin-left: 5px;
         border-radius: 20px;
     }
+      
     .dropdownBtn:hover{
         color: rgb(197, 197, 197);
         cursor: pointer;
@@ -248,5 +234,16 @@ h1{
         text-align: center;
     }
     
-        
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 100% 50%;
+    }
+    50% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
