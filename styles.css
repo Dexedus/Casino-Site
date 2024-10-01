@@ -242,6 +242,17 @@ h1{
         font-size: 28px;
         width: 80px;
     }
+
+      .divider{
+          display: hidden;
+    }
+
+      .card{
+    transition: width 0s, height 0s;
+    }
+.card:hover{
+    height: 400px;
+    width: 350px;
     
   }
 
