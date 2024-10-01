@@ -251,8 +251,8 @@ h1{
     transition: width 0s, height 0s;
     }
 .card:hover{
-    height: 400px;
-    width: 350px;
+    height: 380px;
+    width: 300px;
     
   }
 
