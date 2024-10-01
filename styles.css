@@ -247,14 +247,11 @@ h1{
           display: hidden;
     }
 
-      .card{
-    transition: width 0s, height 0s;
-    }
-.card:hover{
+      .card:hover{
     height: 380px;
     width: 300px;
     
-  }
+    }
 
 @keyframes gradient-animation {
     0% {
