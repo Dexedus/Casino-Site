@@ -35,11 +35,12 @@ p{
     border-bottom: solid 10px rgb(32, 32, 32);
     border-radius: 15px;
     box-shadow: 5px 5px 50px 1px rgb(79, 17, 116)  ;
-    transition: width 1s, height 1s;
+    transition: transform 1s
 }
 .card:hover{
-    height: 425px;
-    width: 357px;
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 500;
 
     background: linear-gradient(300deg, rgb(43, 43, 43), #363636, rgb(43, 43, 43));
     background-size: 950% 950%;
