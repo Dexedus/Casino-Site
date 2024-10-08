@@ -35,7 +35,7 @@ p{
     border-bottom: solid 10px rgb(32, 32, 32);
     border-radius: 15px;
     box-shadow: 5px 5px 50px 1px rgb(79, 17, 116)  ;
-    transition: transform 1s
+    transition: transform 1s, height 1s, width 1s;
 }
 .card:hover{
     transform: scale(1.05);
